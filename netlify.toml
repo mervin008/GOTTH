@@ -1,5 +1,5 @@
 [build]
-  command = "make dev"
+  command = "make build"
   functions = "functions"
   publish = "static"
 
