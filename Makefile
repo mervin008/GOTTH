@@ -8,7 +8,7 @@ tailwind-build:
 
 .PHONY: templ-generate
 templ-generate:
-	templ() generate
+	templ generate
 
 .PHONY: templ-watch
 templ-watch:
@@ -21,7 +21,6 @@ dev:
 .PHONY: build
 build:
 	make tailwind-build
-	make templ-generate
 	go build -ldflags "-X main.Environment=production" -o ./bin/$(APP_NAME) ./cmd/$(APP_NAME)/main.go
 
 .PHONY: vet
