@@ -7,8 +7,8 @@ npm install -D tailwindcss
 
 npx tailwindcss init
 
-echo "Installing Templ "
+npm install -D @tailwindcss/forms
 
-go install github.com/a-h/templ/cmd/templ@latest
+npm install -D @tailwindcss/typography
 
 echo "Installation complete!"
