@@ -15,8 +15,14 @@ echo "Installing templ"
 
 git clone https://github.com/a-h/templ.git
 
-cd templ
+git clone https://go.googlesource.com/go goroot
+ 
+cd goroot
 
-npm run build
+cd src
+
+./all.bash
+
+go install github.com/a-h/templ/cmd/templ@latest
 
 echo "Installation complete!"
