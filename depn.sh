@@ -20,7 +20,7 @@ echo "Installing templ"
 # cd src
 
 # ./all.bash
-yum install golang golang-godoc golang-vet golang-src golang-pkg-linux-amd64 -y
+yum install golang -y
 
 go install github.com/a-h/templ/cmd/templ@latest
 
