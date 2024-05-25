@@ -1,16 +1,13 @@
 
 #!/bin/bash
 
-echo "Installing Tailwind CSS and Jinja2..."
+echo "Installing Tailwind CSS "
 
-# Install npm packages (Tailwind CSS)
-npm install -D tailwindcss postcss autoprefixer
+npm install -D tailwindcss
 
-# Install pip packages (Jinja2)
-pip install jinja2
-
-# Create Tailwind CSS configuration file
 npx tailwindcss init
+
+echo "Installing Templ "
 
 go install github.com/a-h/templ/cmd/templ@latest
 
