@@ -25,6 +25,6 @@ yum install golang
 
 # ./all.bash
 
-# go install github.com/a-h/templ/cmd/templ@latest
+go install github.com/a-h/templ/cmd/templ@latest
 
 echo "Installation complete!"
