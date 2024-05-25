@@ -13,8 +13,6 @@ npm install -D @tailwindcss/typography
 
 echo "Installing templ"
 
-git clone https://github.com/a-h/templ.git
-
 # git clone https://go.googlesource.com/go goroot
  
 # cd goroot
@@ -22,6 +20,7 @@ git clone https://github.com/a-h/templ.git
 # cd src
 
 # ./all.bash
+yum install golang golang-godoc golang-vet golang-src golang-pkg-linux-amd64 -y
 
 go install github.com/a-h/templ/cmd/templ@latest
 
