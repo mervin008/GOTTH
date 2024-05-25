@@ -8,7 +8,7 @@ tailwind-build:
 
 .PHONY: templ-generate
 templ-generate:
-	templ generate
+	templ() generate
 
 .PHONY: templ-watch
 templ-watch:
