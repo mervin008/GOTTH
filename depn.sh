@@ -15,8 +15,6 @@ echo "Installing templ"
 
 git clone https://github.com/a-h/templ.git
 
-yum install golang
-
 # git clone https://go.googlesource.com/go goroot
  
 # cd goroot
