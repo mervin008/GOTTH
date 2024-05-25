@@ -11,8 +11,6 @@ npm install -D @tailwindcss/forms
 
 npm install -D @tailwindcss/typography
 
-echo "Installing templ"
-
 # git clone https://go.googlesource.com/go goroot
  
 # cd goroot
@@ -21,6 +19,8 @@ echo "Installing templ"
 
 # ./all.bash
 yum install golang -y
+
+echo "Installing templ"
 
 go install github.com/a-h/templ/cmd/templ@latest
 
